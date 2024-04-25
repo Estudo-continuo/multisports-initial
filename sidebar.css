@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 90px;
+    padding: 35px 0px 35px 0px;
+    justify-content: space-between;
+}
+
+#side_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    padding: 35px 20px 35px 20px;
+    list-style: none;
+}
+
+#side_item_soccer a, #side_item_basket a, #side_item_football a, #side_item_tennis a {
+    display: flex;
+    align-items: center;
+    color: #CACED3;
+    padding: 8.5px 31px 8.5px 31px;
+    font-size: 23px;
+}
+
+#side_item_soccer a:active {
+    border-left: 3px solid #2DCC70;
+    color: #2DCC70;
+}
+
+#side_item_basket a:active {
+    border-left: 3px solid #FFA600;
+    color: #FFA600;
+}
+
+#side_item_football a:active {
+    border-left: 3px solid #583e00;
+    color: #583e00;
+}
+
+#side_item_tennis a:active {
+    border-left: 3px solid #f0ff1b;
+    color: #f0ff1b;
+}
+
+
+#plus {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #2DCC70;
+    color: white;
+    cursor: pointer;
+}
+
+#plus_content {
+    font-size: 20px;
+}
