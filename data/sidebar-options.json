@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Futebol",
+    "route": "/views/futebol/",
+    "icon": "fa-regular fa-futbol",
+    "color": "green"
+  },
+  {
+    "name": "Basquete",
+    "route": "/views/basquete/",
+    "icon": "fa-solid fa-basketball",
+    "color": "orange"
+  },
+  {
+    "name": "Futebol Americano",
+    "route": "/views/futebol-americano/",
+    "icon": "fa-solid fa-football",
+    "color": "brown"
+  },
+  {
+    "name": "Tenis",
+    "route": "/views/tenis/",
+    "icon": "fa-solid fa-baseball",
+    "color": "lemon-green"
+  }
+]
