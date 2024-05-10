@@ -5,58 +5,54 @@
     padding: 0px;
 }
 
-body {
-    background-color: rgb(255, 255, 255);
-    margin: 130px 351px 615px 351px;
-}
-
-.section {
+.card_apresentacao {
+    margin: 130px 351px 0px 351px;
     border-radius: 24px;
     display: flex;
     justify-content: space-between;
     width: 1080px;
     height: 335px;
-    background: linear-gradient(90deg, rgb(234, 253, 244) 0%, #2DCC70 160%);
+    background: linear-gradient(90deg, rgb(234, 253, 244) 0%, #2dcc70 160%);
 }
 
-.section_div {
+.card_apresentacao_content {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
-.section_img {
+.card_apresentacao_content_img {
     padding-top: 40px;
 }
 
-.section_p {
+.card_apresentacao_content_p {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#section_p1 {
+.card_apresentacao_content_p1 {
     font-family: "Roboto", "sans-serif";
     font-weight: 550;
     font-size: 20px;
     line-height: 23.44px;
 }
 
-#section_p2 {
+.card_apresentacao_content_p2 {
     font-family: "Roboto", "sans-serif";
     font-weight: 900;
     font-size: 32px;
     line-height: 37.5px;
 }
 
-#section_p3 {
+.card_apresentacao_content_p3 {
     font-family: "Roboto", "sans-serif";
     font-weight: 900;
     font-size: 20px;
     line-height: 23.44px;
 }
 
-.section_button {
+.card_apresentacao_content_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +71,7 @@ body {
     transition: 0.5s;
 }
 
-.section_button:hover {
+.card_apresentacao_content_button:hover {
     background-color: #3cb66f;
     color: white;
     transition: 0.5s;
