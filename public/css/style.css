@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   margin: 0%;
   padding: 0%;
@@ -9,9 +11,25 @@ body {
   min-height: 100vh;
 }
 
-.bg-blue {
-  background-color: cadetblue;
+/*Organizar a main*/
+
+.organize-content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 6fr 3fr;
 }
+
+.organized-content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg-blue {
+  background-color: #F3F4F7;
+}
+
+/*style Sidebar*/
 
 #sidebar {
   display: flex;
@@ -96,4 +114,135 @@ body {
 
 #plus_content {
   font-size: 20px;
+}
+
+/*style Filter*/
+
+.apresentacao_jogos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 10px;
+}
+
+.filter {
+  display: flex;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+.filter_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #5D7079;
+}
+
+.filter_select {
+  width: 91px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.23px;
+  color: #A0A8B1;
+}
+
+.jogos_position {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.jogos {
+  display: flex;
+  flex-direction: column;
+}
+
+.jogos_dados {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 0px 12px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.jogos_dados_club {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.jogos_dados_club_img {
+  width: 43px;
+}
+
+.jogos_dados_vs {
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 20px;
+  color: #959FA8;
+}
+
+.jogos_dados_write {
+  display: flex;
+  width: 110px;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 20px;
+  color: #959FA8;
+  gap: 12px;
+}
+
+.icon-heart-grey {
+  border: none;
+  background-color: white;
+  color: #E5E5E5;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icon-heart-grey:hover {
+  color: #F53636;
+  transition: 0.5s;
+}
+
+.icon-heart-red {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 25px;
+  transition: 0.5s;
+  color: #F53636;
+}
+
+.icon-heart-red:hover {
+  color: #E5E5E5;
+}
+
+.jogos_dados_viewmore {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 20px;
+  color: #959FA8;
+  transition: 0.5s;
+}
+
+.jogos_dados_viewmore:hover {
+  color: #2dcc70;
+  transition: 0.5s;
 }
