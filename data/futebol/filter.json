@@ -1,38 +1,42 @@
 [
     {
-        "img1": "https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-1.png",
-        "name1": "Chelsea F.C",
-        "img2": "https://clublogos.stadion.io/assets/ClubLogos/Football/English/7.png",
-        "name2": "Aston Villa F.C",
+        "imgClubHouse": "https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-1.png",
+        "nameClubHouse": "Chelsea F.C",
+        "imgClubVisited": "https://clublogos.stadion.io/assets/ClubLogos/Football/English/7.png",
+        "nameClubVisited": "Aston Villa F.C",
         "time": "17:00",
         "local": "Europa",
-        "heart": "grey"
+        "isFavorite": false,
+        "reference": "0"
     },
     {
-        "img1": "https://download.vikidia.org/vikidia/fr/images/thumb/b/b8/Logo_Real_Madrid.png/128px-Logo_Real_Madrid.png",
-        "name1": "Real Madrid",
-        "img2": "https://www.clipartmax.com/png/middle/232-2321371_fc-barcelona-png-image-png-arts-rh-pngarts-com-logo-fc-barcelona.png",
-        "name2": "Barcelona F.C",
+        "imgClubHouse": "https://download.vikidia.org/vikidia/fr/images/thumb/b/b8/Logo_Real_Madrid.png/128px-Logo_Real_Madrid.png",
+        "nameClubHouse": "Real Madrid",
+        "imgClubVisited": "https://www.clipartmax.com/png/middle/232-2321371_fc-barcelona-png-image-png-arts-rh-pngarts-com-logo-fc-barcelona.png",
+        "nameClubVisited": "Barcelona F.C",
         "time": "20:00",
         "local": "Europa",
-        "heart": "grey"
+        "isFavorite": true,
+        "reference": "1"
     },
     {
-        "img1": "https://logodownload.org/wp-content/uploads/2016/09/ac-milan-logo-2-768x1161.png",
-        "name1": "AC Milan",
-        "img2": "https://logodownload.org/wp-content/uploads/2017/02/inter-milan-logo.png",
-        "name2": "Inter de Milán",
+        "imgClubHouse": "https://logodownload.org/wp-content/uploads/2016/09/ac-milan-logo-2-768x1161.png",
+        "nameClubHouse": "AC Milan",
+        "imgClubVisited": "https://logodownload.org/wp-content/uploads/2017/02/inter-milan-logo.png",
+        "nameClubVisited": "Inter de Milán",
         "time": "21:30",
         "local": "Europa",
-        "heart": "grey"
+        "isFavorite": false,
+        "reference": "2"
     },
     {
-        "img1": "https://i.pinimg.com/originals/ec/e1/07/ece107931f5723b84b647a9b0a3cbc92.png",
-        "name1": "Braga F.C",
-        "img2": "https://th.bing.com/th/id/OIP.msJduE8FO0fUI0E5A9kqIAHaHU?rs=1&pid=ImgDetMain",
-        "name2": "SL Benfica",
+        "imgClubHouse": "https://i.pinimg.com/originals/ec/e1/07/ece107931f5723b84b647a9b0a3cbc92.png",
+        "nameClubHouse": "Braga F.C",
+        "imgClubVisited": "https://th.bing.com/th/id/OIP.msJduE8FO0fUI0E5A9kqIAHaHU?rs=1&pid=ImgDetMain",
+        "nameClubVisited": "SL Benfica",
         "time": "22:45",
         "local": "Europa",
-        "heart": "red"
+        "isFavorite": true,
+        "reference": "3"
     }
 ]
