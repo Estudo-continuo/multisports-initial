@@ -11,6 +11,12 @@ body {
   min-height: 100vh;
 }
 
+:root {
+  --font-roboto: "Roboto";
+  --font-inter: "Inter";
+  --color-white: white;
+}
+
 /*Organizar a main*/
 
 .organize-content {
@@ -34,7 +40,7 @@ body {
 #sidebar {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--color-white);
   align-items: center;
   width: 90px;
   padding: 35px 0px;
@@ -108,7 +114,7 @@ body {
   border: none;
   border-radius: 50px;
   background-color: #2dcc70;
-  color: white;
+  color: var(--color-white);
   cursor: pointer;
 }
 
@@ -135,7 +141,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto";
+  font-family: var(--font-roboto);
   font-weight: 400;
   font-size: 18px;
   line-height: 21.09px;
@@ -147,7 +153,7 @@ body {
   height: 32px;
   border: none;
   border-radius: 2px;
-  font-family: "Roboto";
+  font-family: var(--font-roboto);
   font-weight: 400;
   font-size: 13px;
   line-height: 15.23px;
@@ -166,7 +172,7 @@ body {
 }
 
 .jogos_dados {
-  background-color: white;
+  background-color: var(--color-white);
   border-radius: 5px;
   display: flex;
   gap: 10px;
@@ -188,7 +194,7 @@ body {
 
 .jogos_dados_vs {
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: var(--font-roboto);
   font-weight: 400;
   line-height: 20px;
   color: #959FA8;
@@ -198,7 +204,7 @@ body {
   display: flex;
   width: 110px;
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: var(--font-roboto);
   font-weight: 400;
   line-height: 20px;
   color: #959FA8;
@@ -207,7 +213,7 @@ body {
 
 .icon-heart-grey {
   border: none;
-  background-color: white;
+  background-color: var(--color-white);
   color: #E5E5E5;
   font-size: 25px;
   cursor: pointer;
@@ -222,7 +228,7 @@ body {
 .icon-heart-red {
   border: none;
   cursor: pointer;
-  background-color: white;
+  background-color: var(--color-white);
   font-size: 25px;
   transition: 0.5s;
   color: #F53636;
@@ -235,7 +241,7 @@ body {
 .jogos_dados_viewmore {
   text-decoration: none;
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: var(--font-roboto);
   font-weight: 400;
   line-height: 20px;
   color: #959FA8;
