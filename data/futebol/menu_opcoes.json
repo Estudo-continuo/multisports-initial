@@ -1,17 +1,22 @@
 [
     {
-        "active": ""
+        "name": "Classificação",
+        "border": "green"
     },
     {
-        "active": "-active"
+        "name": "Próximos jogos",
+        "border": "green"
     },
     {
-        "active": ""
+        "name": "Últimos jogos",
+        "border": "green"
     },
     {
-        "active": ""
+        "name": "Estatísticas",
+        "border": "green"
     },
     {
-        "active": ""
+        "name": "Notícias",
+        "border": "green"
     }
 ]
