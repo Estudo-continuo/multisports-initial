@@ -227,18 +227,6 @@ body {
   gap: 40px;
 }
 
-.menu-opcoes-button-active {
-  padding-bottom: 8px;
-  font-family: "Inter";
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 19.36px;
-  color: #172C41;
-  border: none;
-  background-color: #F3F4F7;
-  border-bottom: 4px solid #2DCC70;
-}
-
 .menu-opcoes-button {
   padding-bottom: 8px;
   font-family: "Inter";
@@ -257,6 +245,11 @@ body {
   border-bottom: 4px solid #2DCC70;
   color: #172C41;
   transition: 0.5s;
+}
+
+.green-opcoes {
+  border-bottom: 4px solid #2DCC70;
+  font-weight: 500;
 }
 
 /*style Filter*/
