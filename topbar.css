@@ -1,12 +1,18 @@
-body {
-    background-color: #999;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
+body {
+    background-color: #999;
+
+}
+
+header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 36px 10px 28px;
-    height: 105px;
     align-items: center;
     background-color: #fff
 }
@@ -26,21 +32,9 @@ small {
 }
 
 #top {
-    width: 674.35px;
     height: 40px;
     padding: 0px 20px 0px 20px;
     gap: 30px;
-}
-
-input {
-    border-top: 1px solid #E2E6E8;
-    border-left: 1px solid #E2E6E8;
-    border-bottom: 1px solid #E2E6E8;
-    border-right: none;
-    height: 50px;
-    width: 656px;
-    border-radius: 100px 0px 0px 100px;
-    margin-left: 250px;
 }
 
 ::placeholder {
@@ -51,7 +45,13 @@ input {
     display: flex;
 }
 
-.txtBusca {
+.txt-busca {
+    width: 100%;
+    border-top: 1px solid #E2E6E8;
+    border-left: 1px solid #E2E6E8;
+    border-bottom: 1px solid #E2E6E8;
+    border-right: none;
+    border-radius: 100px 0px 0px 100px;
     padding-left: 32px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -60,7 +60,7 @@ input {
     outline: 0;
 }
 
-.busca__lupa {
+.busca-lupa {
     border-radius: 0px 100px 100px 0px;
     border-top: 1px solid #E2E6E8;
     border-left: none;
@@ -75,4 +75,3 @@ i {
     width: 24px;
     height: 24px;
 }
-
