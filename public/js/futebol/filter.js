@@ -26,7 +26,7 @@ async function loadFilterOptions() {
                     <p class="jogos_dados_write">${option.nameClubVisited}</p>
                 </div>
                 <p class="jogos_dados_write"><i class="fa-regular fa-clock"></i> ${option.time}</p>
-                <p class="jogos_dados_write"><i class="fa-solid fa-location-dot"></i> ${option.local}</p>
+                <a href="${option.linkLocal}" class="jogos_dados_write"><i class="fa-solid fa-location-dot"></i> ${option.local}</a>
                 <button onClick="addFavorite(value)" value="${option.reference}" class="icon-heart-${heart}"><i class="fa-solid fa-heart"></i></button>
                 <a class="jogos_dados_viewmore" href="#">View more <i class="fa-solid fa-arrow-right"></i></a>
             </div>
