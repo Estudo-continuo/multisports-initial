@@ -11,12 +11,6 @@ body {
   min-height: 100vh;
 }
 
-:root {
-  --font-roboto: "Roboto";
-  --font-inter: "Inter";
-  --color-white: white;
-}
-
 /*Organizar a main*/
 
 .organize-content {
@@ -28,7 +22,7 @@ body {
 .organized-content-center {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .bg-blue {
@@ -40,7 +34,7 @@ body {
 #sidebar {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-white);
+  background-color: white;
   align-items: center;
   width: 90px;
   padding: 35px 0px;
@@ -114,12 +108,94 @@ body {
   border: none;
   border-radius: 50px;
   background-color: #2dcc70;
-  color: var(--color-white);
+  color: white;
   cursor: pointer;
 }
 
 #plus_content {
   font-size: 20px;
+}
+
+/*style Card-apresentação*/
+
+.card_apresentacao {
+  margin-top: 2%;
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 5fr 8fr 3fr 0.5fr;
+  height: auto;
+  background: linear-gradient(90deg, rgb(234, 253, 244) 0%, #2dcc70 160%);
+}
+
+.card_apresentacao_content {
+  display: flex;
+  gap: 30px;
+}
+
+.card_apresentacao_content_img_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-top: 40px;
+}
+
+.card_apresentacao_content_img {
+  width: 100%;
+}
+
+.card_apresentacao_content_p_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_apresentacao_content_p1 {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 550;
+  font-size: 120%;
+  line-height: 23.44px;
+}
+
+.card_apresentacao_content_p2 {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 900;
+  font-size: 180%;
+  line-height: 37.5px;
+}
+
+.card_apresentacao_content_p3 {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 900;
+  font-size: 120%;
+  line-height: 23.44px;
+}
+
+.card_apresentacao_content_button_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 20%;
+}
+
+.card_apresentacao_content_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 8% 10% 8% 10%;
+  color: #2DCC70;
+  font-size: 18px;
+  line-height: 21.09px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.card_apresentacao_content_button:hover {
+  background-color: #3cb66f;
+  color: white;
+  transition: 0.5s;
 }
 
 /*style Filter*/
@@ -141,7 +217,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--font-roboto);
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   line-height: 21.09px;
@@ -153,7 +229,7 @@ body {
   height: 32px;
   border: none;
   border-radius: 2px;
-  font-family: var(--font-roboto);
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 13px;
   line-height: 15.23px;
@@ -172,7 +248,7 @@ body {
 }
 
 .jogos_dados {
-  background-color: var(--color-white);
+  background-color: white;
   border-radius: 5px;
   display: flex;
   gap: 10px;
@@ -194,17 +270,18 @@ body {
 
 .jogos_dados_vs {
   font-size: 17px;
-  font-family: var(--font-roboto);
+  font-family: "Roboto";
   font-weight: 400;
   line-height: 20px;
   color: #959FA8;
 }
 
 .jogos_dados_write {
+  text-decoration: none;
   display: flex;
   width: 110px;
   font-size: 17px;
-  font-family: var(--font-roboto);
+  font-family: "Roboto";
   font-weight: 400;
   line-height: 20px;
   color: #959FA8;
@@ -213,7 +290,7 @@ body {
 
 .icon-heart-grey {
   border: none;
-  background-color: var(--color-white);
+  background-color: white;
   color: #E5E5E5;
   font-size: 25px;
   cursor: pointer;
@@ -228,7 +305,7 @@ body {
 .icon-heart-red {
   border: none;
   cursor: pointer;
-  background-color: var(--color-white);
+  background-color: white;
   font-size: 25px;
   transition: 0.5s;
   color: #F53636;
@@ -241,7 +318,7 @@ body {
 .jogos_dados_viewmore {
   text-decoration: none;
   font-size: 17px;
-  font-family: var(--font-roboto);
+  font-family: "Roboto";
   font-weight: 400;
   line-height: 20px;
   color: #959FA8;
