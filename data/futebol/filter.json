@@ -6,6 +6,7 @@
         "nameClubVisited": "Aston Villa F.C",
         "time": "17:00",
         "local": "Europa",
+        "linkLocal": "https://www.bing.com/ck/a?!&&p=9e2b97aa4120246aJmltdHM9MTcxNTczMTIwMCZpZ3VpZD0xMjY2OWUwYi04NjMzLTYwMWItMjc0MS04ZDg3ODc1NDYxYTImaW5zaWQ9NTU1Mw&ptn=3&ver=2&hsh=3&fclid=12669e0b-8633-601b-2741-8d87875461a2&u=a1L3NlYXJjaD9xPVN0YW1mb3JkK0JyaWRnZSsoZXN0JWMzJWExZGlvKSZGT1JNPVNOQVBTVCZmaWx0ZXJzPXNpZDoiYTMxZGNjZTgtZDQ2MS03ODVlLTRkZTItZjBmYjY0ZDI0MzcwIg&ntb=1",
         "isFavorite": false,
         "reference": "0"
     },
@@ -16,6 +17,7 @@
         "nameClubVisited": "Barcelona F.C",
         "time": "20:00",
         "local": "Europa",
+        "linkLocal": "https://www.bing.com/search?q=est%c3%a1dio+santiago+bernab%c3%a9u&filters=dtbk:%22MCFvdmVydmlldyFvdmVydmlldyE1YjA4OGQwOS1mOTlmLTJlYjMtMTA1Mi1hMjViZjZiMzBhNTU%3d%22+sid:%225b088d09-f99f-2eb3-1052-a25bf6b30a55%22+tphint:%22f%22&FORM=DEPNAV",
         "isFavorite": true,
         "reference": "1"
     },
@@ -26,6 +28,7 @@
         "nameClubVisited": "Inter de Milán",
         "time": "21:30",
         "local": "Europa",
+        "linkLocal": "https://www.bing.com/ck/a?!&&p=e3eb7aa2a96b8fc9JmltdHM9MTcxNTczMTIwMCZpZ3VpZD0xMjY2OWUwYi04NjMzLTYwMWItMjc0MS04ZDg3ODc1NDYxYTImaW5zaWQ9NTkxNw&ptn=3&ver=2&hsh=3&fclid=12669e0b-8633-601b-2741-8d87875461a2&u=a1aHR0cHM6Ly93d3cuYmluZy5jb20vYWxpbmsvbGluaz91cmw9aHR0cHMlM2ElMmYlMmZ3d3cuc2Fuc2lyb3N0YWRpdW0uY29tJTJmJnNvdXJjZT1zZXJwLWxvY2FsJmg9SGRLMFYzb1d5NXdOMkswUGl3TXFYaXJRT1UlMmJFNURLOTBmcFBuRW41eHlBJTNkJnA9bHdfbHN0cHQmaWc9RERCRjAyOTM3MzI2NDY0RTkxRDBDMENCNjM3RTExMkQmeXBpZD1ZTjEzNTR4ODM1OTA5MTE4MTA2OTkxMTgyMQ&ntb=1",
         "isFavorite": false,
         "reference": "2"
     },
@@ -36,6 +39,7 @@
         "nameClubVisited": "SL Benfica",
         "time": "22:45",
         "local": "Europa",
+        "linkLocal": "https://www.bing.com/ck/a?!&&p=ac0c05818f72654fJmltdHM9MTcxNTczMTIwMCZpZ3VpZD0xMjY2OWUwYi04NjMzLTYwMWItMjc0MS04ZDg3ODc1NDYxYTImaW5zaWQ9NTg5NA&ptn=3&ver=2&hsh=3&fclid=12669e0b-8633-601b-2741-8d87875461a2&u=a1L3NlYXJjaD9xPUVzdCVjMyVhMWRpbytNdW5pY2lwYWwrZGUrQnJhZ2EmRk9STT1TTkFQU1QmZmlsdGVycz1zaWQ6IjIzZGYzOGUwLWJlNzgtNGUwOC00ZGIyLWNlMDMxY2VmYTAxNCI&ntb=1",
         "isFavorite": true,
         "reference": "3"
     }
