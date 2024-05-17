@@ -239,7 +239,14 @@ body {
 .jogos_position {
   display: flex;
   flex-direction: column;
+  height: 380px;
   gap: 13px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.jogos_position::-webkit-scrollbar {
+  width: 0px;
 }
 
 .jogos {
