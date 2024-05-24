@@ -17,13 +17,13 @@ async function loadFilterOptions() {
 
             <div class="jogos_dados">
                 <div class="jogos_dados_club">
-                    <img class="jogos_dados_club_img" src="${option.imgClubHouse}" alt="${option.nameClubHouse}">
-                    <p class="jogos_dados_write">${option.nameClubHouse}</p>
+                    <img class="jogos_dados_club_img" src="${option.home.img}" alt="${option.home.name}">
+                    <p class="jogos_dados_write">${option.home.name}</p>
                 </div>
                 <p class="jogos_dados_vs">vs</p>
                 <div class="jogos_dados_club">
-                    <img class="jogos_dados_club_img" src="${option.imgClubVisited}" alt="${option.nameClubVisited} F.C">
-                    <p class="jogos_dados_write">${option.nameClubVisited}</p>
+                    <img class="jogos_dados_club_img" src="${option.away.img}" alt="${option.away.name} F.C">
+                    <p class="jogos_dados_write">${option.away.name}</p>
                 </div>
                 <p class="jogos_dados_write"><i class="fa-regular fa-clock"></i> ${option.time}</p>
                 <a href="${option.linkLocal}" class="jogos_dados_write"><i class="fa-solid fa-location-dot"></i> ${option.local}</a>
@@ -36,22 +36,6 @@ async function loadFilterOptions() {
         })
     })
 }
-
-// async function addFavorite(value) {
-//     const referencia = await fetch("../../data/futebol/filter.json")
-
-//     referencia.json().then(resposta => {
-//         console.log(resposta[value].isFavorite)
-//         let alterar = resposta[value].isFavorite
-//         if (alterar == true) {
-//             alterar = false
-//         } else {
-//             alterar = true 
-//         }
-//     })
-// }
-
-
 
 function main() {
     loadFilterOptions()
