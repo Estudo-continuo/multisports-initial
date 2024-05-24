@@ -2,10 +2,9 @@ async function loadDestaqueOptions() {
     const options = await fetch("../../data/futebol/destaque_soccer.json")
     const destaque = document.getElementById("context")
 
+    const destaqueData = options.json().then(res => {
 
-    options.json().then(res => {
-        console.log(res)
-            destaque.innerHTML = `
+        destaque.innerHTML = `
             <img class="photo" src="${res[0].img}" alt="${res[0].name}" width="20px">
             <div class="content_stats">
                 <p class="name">${res[0].name}</p>
@@ -13,73 +12,65 @@ async function loadDestaqueOptions() {
                     <p class="stats"><i id="icon" class="fa-solid fa-bolt"></i>${res[0].why}</p>
                 </div>
             </div>
-            `
+        `
+
+        return res
     })
+
+    return destaqueData
 }
 
-async function carrousel(i){
-
-    if (i < 0) {
-        i = 3
-    } else if (i == 4) {
-        i = 0
-    }
-
-    const options = await fetch("../../data/futebol/destaque_soccer.json")
+function carrousel(i, data) {
     const destaque = document.getElementById("context")
 
-    options.json().then(res => {
-        let option = res[i]
+    let option = data[i]
 
-        destaque.innerHTML = `
-        <img class="photo" src="${option.img}" alt="${option.name}" width="20px">
-        <div class="content_stats">
-            <p class="name">${option.name}</p>
-            <div class="icon_p">
-                <p class="stats"><i id="icon" class="fa-solid fa-bolt"></i>${option.why}</p>
-            </div>
+    destaque.innerHTML = `
+    <img class="photo" src="${option.img}" alt="${option.name}" width="20px">
+    <div class="content_stats">
+        <p class="name">${option.name}</p>
+        <div class="icon_p">
+            <p class="stats"><i id="icon" class="fa-solid fa-bolt"></i>${option.why}</p>
         </div>
-        `
-    })
+    </div>
+    `
 }
 
 
-function leftChange(num){
+function leftChange(num, data) {
+    let newIndex = num - 1
 
-    if (num < 0) {
-        num = 3
-    } else if (num == 4) {
-        num = 0
+    if (num <= 0) {
+        newIndex = data.length - 1
     }
 
-    carrousel(num - 1)
-    return num - 1
+    carrousel(newIndex, data)
+    return newIndex
 
 }
 
-function rightChange(num){
+function rightChange(num, data) {
+    let newIndex = num + 1
 
-    if (num < 0) {
-        num = 3
-    } else if (num == 4) {
-        num = 0
+    if (newIndex >= data.length) {
+        newIndex = 0
     }
 
-    carrousel(num + 1)
-    return num + 1
+    carrousel(newIndex, data)
+    return newIndex
 
 }
 
-function main() {
-    loadDestaqueOptions()
+async function main() {
+    const dataCarrousel = await loadDestaqueOptions()
 
     let inicialIndex = 0
 
     const leftArrow = document.getElementById("arrow_left")
     const rightArrow = document.getElementById("arrow_right")
 
-    leftArrow.addEventListener(`click`, () => inicialIndex = leftChange(inicialIndex))
-    rightArrow.addEventListener(`click`, () => inicialIndex = rightChange(inicialIndex))
+    leftArrow.addEventListener(`click`, () => inicialIndex = leftChange(inicialIndex, dataCarrousel))
+    rightArrow.addEventListener(`click`, () => inicialIndex = rightChange(inicialIndex, dataCarrousel))
 
 }
 
