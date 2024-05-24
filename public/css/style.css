@@ -344,6 +344,27 @@ body {
   transition: 0.5s;
 }
 
+@media (max-width: 1700px) {
+  .jogos_position {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    gap: 13px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}
+@media (max-width: 1400px) {
+  .jogos_position {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    gap: 13px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}
+
 /* Style Destaque*/
 
 .destaque {
