@@ -11,6 +11,9 @@ async function loadSidebarOptions() {
                 <li class="home-icon ${isActive && ("active-sidebar-icon " + option.color)}">
                     <a href="${option.route}">
                         <i class="${option.icon} " aria-hidden="true"></i>
+                        <div class="home-icon-name">
+                        ${option.name}
+                        </div>
                     </a>
                 </li>
             `
@@ -18,6 +21,19 @@ async function loadSidebarOptions() {
     })
 
 }
+
+const btenMobile = document.getElementById('btn-mobile')
+
+function toggleMenu(event) {
+    if (event.type === 'touchstart') {
+        event.preventDefault()
+    }
+    const nav = document.getElementById('sidebar')
+    nav.classList.toggle('active')
+}
+
+btenMobile.addEventListener('click', toggleMenu)
+btenMobile.addEventListener('touchstart', toggleMenu)
 
 function main() {
     loadSidebarOptions()
