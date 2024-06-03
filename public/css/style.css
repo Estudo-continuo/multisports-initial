@@ -37,6 +37,15 @@ body {
   background-color: #F3F4F7;
 }
 
+@media (max-width: 450px) {
+  .organized-content-center #mobile-position {
+    order: -1;
+  }
+  .organized-content-center .card_apresentacao {
+    order: -1;
+  }
+}
+
 /*style Sidebar*/
 
 #sidebar {
@@ -548,6 +557,10 @@ body {
 
 /* Style Destaque*/
 
+.accordion {
+  display: none;
+}
+
 .destaque {
   margin: 0% 15% 0% 15%;
   display: flex;
@@ -626,4 +639,46 @@ body {
   font-size: 15px;
   line-height: 17.58px;
   color: #959FA8;
+}
+
+@media (max-width: 450px) {
+  .accordion {
+    display: block;
+    background-color: white;
+    color: #444;
+    font-family: "Roboto";
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .accordion:hover {
+    background-color: #a6a6a6;
+  }
+  
+  .accordion:after {
+    content: '∨';
+    color: black;
+    font-weight: bold;
+    float: right;
+  }
+  
+  .accordion.active:after {
+    content: "∧";
+  }
+  
+  .see-destaque {
+    background-color: #F3F4F7;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
+  }
+  
+  .destaque {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
