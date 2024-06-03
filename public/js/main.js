@@ -22,6 +22,18 @@ async function loadSidebarOptions() {
 
 }
 
+function mobileView() {
+    
+    if (innerWidth < 500) {
+        const node = document.getElementById('organized_content_right').firstElementChild
+        document.getElementById('organized-content-center').appendChild(node)
+    } else {
+        console.log('Não esta no tamanho mobile')
+    }
+
+}
+
+
 const btenMobile = document.getElementById('btn-mobile')
 
 function toggleMenu(event) {
@@ -37,6 +49,7 @@ btenMobile.addEventListener('touchstart', toggleMenu)
 
 function main() {
     loadSidebarOptions()
+    mobileView()
 }
 
 main()
