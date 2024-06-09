@@ -38,6 +38,20 @@ body {
   background-color: #F3F4F7;
 }
 
+@media (min-width: 450px) and (max-width: 850px) {
+  .organize-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .organized-content-center #mobile-position {
+    order: -1;
+  }
+  .organized-content-center .card_apresentacao {
+    order: -1;
+  }
+}
+
 @media (max-width: 450px) {
   .organized-content-center #mobile-position {
     order: -1;
@@ -140,6 +154,106 @@ body {
 
 #plus_content {
   font-size: 20px;
+}
+
+@media (min-width: 450px) and (max-width: 850px) {
+  #btn-mobile {
+    display: flex;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  #plus {
+    display: none;
+  }
+
+  #hamburguer {
+    border-top: 2px solid black;
+    width: 20px;
+    transition: 1s;
+  }
+
+  #hamburguer::after, #hamburguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .active-sidebar-icon {
+    border-left: transparent;
+  }
+  
+  #sidebar {
+    position: fixed;
+    flex-direction: column;
+    width: 70px;
+    height: 60px;
+    padding-top: 10px;
+    transition: 1s;
+  }
+  
+  #side_items {
+    align-items: start;
+  }
+  
+  .home-icon-name {
+    display: flex;
+  }
+  
+  #sidebar.active {
+    width: 100%;
+    height: 27rem;
+    border-radius: 0px 0px 16px 16px;
+    align-items: center;
+    overflow-y: hidden;
+    border-bottom: 1px solid black;
+    transition: 1s;
+  }
+
+  #sidebar.active #hamburguer {
+    border-top-color: transparent;
+    transition: 0.5s;
+  }
+
+  #sidebar.active #hamburguer::before {
+    margin-left: 10px;
+    transform: rotate(135deg);
+    top: 7px;
+    transition: 1s;
+  }
+
+  #sidebar.active #hamburguer::after {
+    margin-left: 10px;
+    transform: rotate(-135deg);
+    transition: 1s;
+  }
+  
+  #sidebar.active #side_items, a {
+    align-items: start;
+    gap: 20px;
+    border-left: transparent;
+  }
+
+  #sidebar.active .home-icon-name {
+    display: flex;
+    transition: 1s;
+  }
+
+  #sidebar.active .home-icon {
+    display: flex;
+    flex-direction: row;
+    visibility: visible;
+    overflow-y: hidden;
+    transition: 1s;
+  }
 }
 
 @media (max-width: 450px) {
@@ -324,6 +438,13 @@ body {
   transition: 0.5s;
 }
 
+@media (min-width: 450px) and (max-width: 850px) {
+  .card_apresentacao_content_p_position {
+    align-items: center;
+    text-align: center;
+  }
+}
+
 @media (max-width: 450px) {
   .card_apresentacao_content_img {
     width: 110%;
@@ -403,6 +524,12 @@ body {
 .green-opcoes {
   border-bottom: 4px solid #2DCC70;
   font-weight: 500;
+}
+
+@media (max-width: 450px) {
+  .menu-opcoes-button-position {
+    overflow-x: scroll;
+  }
 }
 
 /*style Filter*/
@@ -565,6 +692,12 @@ body {
   }
 }
 
+@media (min-width: 450px) and (max-width: 850px) {
+  .jogos_position {
+    height: 380px;
+  }
+}
+
 @media (max-width: 450px) {
   body {
     display: flex;
@@ -616,7 +749,7 @@ body {
 }
 
 .destaque {
-  margin: 0% 15% 0% 15%;
+  margin: 0 50px 0 50px;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -693,6 +826,75 @@ body {
   font-size: 15px;
   line-height: 17.58px;
   color: #959FA8;
+}
+
+@media (min-width: 450px) and (max-width: 850px) {
+  .accordion {
+    display: block;
+    background-color: white;
+    color: #444;
+    font-family: "Roboto";
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .accordion:hover {
+    background-color: #a6a6a6;
+  }
+  
+  .accordion:after {
+    content: '∨';
+    color: black;
+    font-weight: bold;
+    float: right;
+  }
+  
+  .accordion.active:after {
+    content: "∧";
+  }
+  
+  .see-destaque {
+    background-color: #F3F4F7;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
+  }
+  
+  .destaque {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #context {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    margin-bottom: 20px;
+  }
+
+  .photo {
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  .content_stats {
+    gap: 35px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  #icon {
+    font-size: 25px;
+  }
+
+  .stats {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 450px) {
