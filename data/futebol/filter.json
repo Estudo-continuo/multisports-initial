@@ -1,0 +1,107 @@
+[
+    {
+        "home": {
+            "img": "https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-1.png",
+            "name": "Chelsea F.C"
+        },
+        "away": {
+            "img": "https://clublogos.stadion.io/assets/ClubLogos/Football/English/7.png",
+            "name": "Aston Villa F.C"
+        },
+        "time": "17:00",
+        "local": "Europa",
+        "linkLocal": "https://www.bing.com/ck/a?!&&p=9e2b97aa4120246aJmltdHM9MTcxNTczMTIwMCZpZ3VpZD0xMjY2OWUwYi04NjMzLTYwMWItMjc0MS04ZDg3ODc1NDYxYTImaW5zaWQ9NTU1Mw&ptn=3&ver=2&hsh=3&fclid=12669e0b-8633-601b-2741-8d87875461a2&u=a1L3NlYXJjaD9xPVN0YW1mb3JkK0JyaWRnZSsoZXN0JWMzJWExZGlvKSZGT1JNPVNOQVBTVCZmaWx0ZXJzPXNpZDoiYTMxZGNjZTgtZDQ2MS03ODVlLTRkZTItZjBmYjY0ZDI0MzcwIg&ntb=1",
+        "isFavorite": false,
+        "reference": "0"
+    },
+    {
+        "home": {
+            "img": "https://th.bing.com/th/id/R.05ed270fa790f818def5554ecf1ee9fc?rik=UoFzdYS9E%2fdJ1A&riu=http%3a%2f%2ftusimagenesde.com%2fwp-content%2fuploads%2f2016%2f05%2freal-madrid-logo-4.png&ehk=97tGwpDH12uEsCCfByVrU69U4QcUvyLeikxw9aKokz0%3d&risl=&pid=ImgRaw&r=0",
+            "name": "Real Madrid"
+        },
+        "away": {
+            "img": "https://pngimg.com/uploads/fcb_logo/fcb_logo_PNG14.png",
+            "name": "Barcelona F.C"
+        },
+        "time": "20:00",
+        "local": "Europa",
+        "linkLocal": "https://www.bing.com/search?q=est%c3%a1dio+santiago+bernab%c3%a9u&filters=dtbk:%22MCFvdmVydmlldyFvdmVydmlldyE1YjA4OGQwOS1mOTlmLTJlYjMtMTA1Mi1hMjViZjZiMzBhNTU%3d%22+sid:%225b088d09-f99f-2eb3-1052-a25bf6b30a55%22+tphint:%22f%22&FORM=DEPNAV",
+        "isFavorite": true,
+        "reference": "1"
+    },
+    {
+        "home": {
+            "img": "https://logodownload.org/wp-content/uploads/2016/09/ac-milan-logo-2-768x1161.png",
+            "name": "AC Milan"
+        },
+        "away": {
+            "img": "https://logodownload.org/wp-content/uploads/2017/02/inter-milan-logo.png",
+            "name": "Inter de Milán"
+        },
+        "time": "21:30",
+        "local": "Europa",
+        "linkLocal": "https://www.bing.com/ck/a?!&&p=e3eb7aa2a96b8fc9JmltdHM9MTcxNTczMTIwMCZpZ3VpZD0xMjY2OWUwYi04NjMzLTYwMWItMjc0MS04ZDg3ODc1NDYxYTImaW5zaWQ9NTkxNw&ptn=3&ver=2&hsh=3&fclid=12669e0b-8633-601b-2741-8d87875461a2&u=a1aHR0cHM6Ly93d3cuYmluZy5jb20vYWxpbmsvbGluaz91cmw9aHR0cHMlM2ElMmYlMmZ3d3cuc2Fuc2lyb3N0YWRpdW0uY29tJTJmJnNvdXJjZT1zZXJwLWxvY2FsJmg9SGRLMFYzb1d5NXdOMkswUGl3TXFYaXJRT1UlMmJFNURLOTBmcFBuRW41eHlBJTNkJnA9bHdfbHN0cHQmaWc9RERCRjAyOTM3MzI2NDY0RTkxRDBDMENCNjM3RTExMkQmeXBpZD1ZTjEzNTR4ODM1OTA5MTE4MTA2OTkxMTgyMQ&ntb=1",
+        "isFavorite": false,
+        "reference": "2"
+    },
+    {
+        "home": {
+            "img": "https://i.pinimg.com/originals/ec/e1/07/ece107931f5723b84b647a9b0a3cbc92.png",
+            "name": "Braga F.C"
+        },
+        "away": {
+            "img": "https://th.bing.com/th/id/OIP.msJduE8FO0fUI0E5A9kqIAHaHU?rs=1&pid=ImgDetMain",
+            "name": "SL Benfica"
+        },
+        "time": "22:45",
+        "local": "Europa",
+        "linkLocal": "https://www.bing.com/ck/a?!&&p=ac0c05818f72654fJmltdHM9MTcxNTczMTIwMCZpZ3VpZD0xMjY2OWUwYi04NjMzLTYwMWItMjc0MS04ZDg3ODc1NDYxYTImaW5zaWQ9NTg5NA&ptn=3&ver=2&hsh=3&fclid=12669e0b-8633-601b-2741-8d87875461a2&u=a1L3NlYXJjaD9xPUVzdCVjMyVhMWRpbytNdW5pY2lwYWwrZGUrQnJhZ2EmRk9STT1TTkFQU1QmZmlsdGVycz1zaWQ6IjIzZGYzOGUwLWJlNzgtNGUwOC00ZGIyLWNlMDMxY2VmYTAxNCI&ntb=1",
+        "isFavorite": true,
+        "reference": "3"
+    },
+    {
+        "home": {
+            "img": "https://upload.wikimedia.org/wikipedia/pt/0/02/Manchester_City_Football_Club.png",
+            "name": "Manchester City"
+        },
+        "away": {
+            "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
+            "name": "Arsenal F.C"
+        },
+        "time": "16:00",
+        "local": "Europa",
+        "linkLocal": "https://www.google.com.br/maps/place/Etihad+Stadium/@53.4831634,-2.2003736,15z/data=!4m2!3m1!1s0x0:0x549a8dcce67a876a?sa=X&ved=1t:2428&ictx=111",
+        "isFavorite": true,
+        "reference": "4"
+    },
+    {
+        "home": {
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/1200px-Boca_Juniors_logo18.svg.png",
+            "name": "Boca Juniors"
+        },
+        "away": {
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/River_Plate_logo.svg/2250px-River_Plate_logo.svg.png",
+            "name": "River Plate"
+        },
+        "time": "23:00",
+        "local": "America do Sul",
+        "linkLocal": "https://www.google.com.br/search?sca_esv=8ded6165f44582e6&sca_upv=1&biw=1912&bih=924&sxsrf=ADLYWIK_YamT54BhNYmKP89HcjmaNO0Gaw:1715962489571&q=La+Bombonera&stick=H4sIAAAAAAAAAONgVuLUz9U3ME4zMCt4xGjCLfDyxz1hKe1Ja05eY1Tl4grOyC93zSvJLKkUEudig7J4pbi5ELp4FrHy-CQqOOXnJuXnpRYlAgDh1yTPUwAAAA&sa=X&ved=2ahUKEwj_z421ipWGAxX9rJUCHeMpBsEQzIcDKAB6BAgpEAE",
+        "isFavorite": false,
+        "reference": "5"
+    },
+    {
+        "home": {
+            "img": "https://upload.wikimedia.org/wikipedia/pt/6/65/Al-Nassr_Football_Club.png",
+            "name": "Al-Nassr F.C"
+        },
+        "away": {
+            "img": "https://upload.wikimedia.org/wikipedia/commons/2/22/Al-Hilal-Logo.png",
+            "name": "Al-Hilal F.C"
+        },
+        "time": "6:30",
+        "local": "Ásia",
+        "linkLocal": "https://www.google.com.br/search?q=al+maktoum+stadium&sca_esv=8ded6165f44582e6&sca_upv=1&biw=1912&bih=924&sxsrf=ADLYWIKmG4_9ZhTAgI12bxVKQ2i_LFR5rw%3A1715962581462&ei=1YJHZtfhG8Lb1sQP4J2ZsAE&udm=&oq=al+maktoum+&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2FsIG1ha3RvdW0gKgIIATILEC4YgAQYxwEYrwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQLhgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFIomtQAFiEV3ABeAGQAQGYAZcCoAH_FqoBBjAuMTUuMrgBA8gBAPgBAZgCFqAC2McBwgIKECMYgAQYJxiKBcICChAuGIAEGCcYigXCAgQQIxgnwgIQEC4YgAQYsQMYQxiDARiKBcICChAAGIAEGEMYigXCAgsQLhiABBixAxiDAcICDhAuGIAEGLEDGIMBGIoFwgIOEAAYgAQYsQMYgwEYigXCAggQABiABBixA8ICBxAuGIAEGArCAgUQLhiABMICChAuGIAEGEMYigXCAh8QLhiABBixAxhDGIMBGIoFGJcFGNwEGN4EGOAE2AEBwgILEAAYgAQYsQMYgwHCAhQQLhiABBiXBRjcBBjeBBjgBNgBAcICFBAuGIAEGJcFGNwEGN4EGN8E2AEBmAMAugYGCAEQARgUkgcOMS4xMC4zLjctMi4zLjOgB9TXAQ&sclient=gws-wiz-serp&lqi=ChJhbCBtYWt0b3VtIHN0YWRpdW1I642mBloqEAAQARACGAAYARgCIhJhbCBtYWt0b3VtIHN0YWRpdW0qCAgCEAAQARACkgEHc3RhZGl1baoBOhABMh4QASIaMnns7PFkb-r43mOuygNyo-bO2mkKjlxg5YYyFhACIhJhbCBtYWt0b3VtIHN0YWRpdW0#rlimm=13078074537749445404",
+        "isFavorite": false,
+        "reference": "6"
+    }
+]

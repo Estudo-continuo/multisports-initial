@@ -1,0 +1,22 @@
+[
+    {
+        "img": "https://th.bing.com/th/id/OIP.8cc6aJHTunXHFPQXVFNUKwHaHa?rs=1&pid=ImgDetMain",
+        "name": "Lionel Messi",
+        "why": "8 Bolas de ouros"
+    },
+    {
+        "img": "https://tn.com.ar/resizer/62MdULXOAPZuCidF1ZYOWhtHE1c=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/WBZLPNYPDFCZ5ELH3YP3EGRHCY.jpg",
+        "name": "Erling Halland",
+        "why": "300 Gols"
+    },
+    {
+        "img": "https://th.bing.com/th/id/OIP.IhOGDTsqAsFyX8rKwWNHfgAAAA?rs=1&pid=ImgDetMain",
+        "name": "Neymar Jr",
+        "why": "R$90 milhões na transferencia"
+    },
+    {
+        "img": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2022/12/07/2022-12-06t210144z_543130007_up1eic61meucs_rtrmadp_3_soccer-worldcup-por-swi-report-u7rsx78icr51.JPG",
+        "name": "Cristiano Ronaldo",
+        "why": "Saltou 2,56 metros"
+    }
+]
