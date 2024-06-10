@@ -103,11 +103,24 @@ async function loadMenuOptions() {
 
 
         local.innerHTML = local.innerHTML + `
-            <button class="menu-opcoes-button ${option.border}">${option.name}</button>
+            <button value="${option.value}" onclick="mudarClass(value)" class="menu-opcoes-button">${option.name}</button>
         `
         })
     })
 }
+
+let btnMenu = document.getElementsByClassName("menu-opcoes-button")
+
+console.log(btnMenu)
+
+function mudarClass(value) {
+    for (x = 0; x < btnMenu.length; x++) {
+        btnMenu[x].classList.remove("menu-opcoes-button-green")
+    }
+    btnMenu[value].classList.add("menu-opcoes-button-green")
+    console.log(btnMenu[value])
+}
+
 
 async function loadFilterOptions() {
     const options = await fetch("../../data/futebol/filter.json")
