@@ -1,22 +1,22 @@
 [
     {
         "name": "Classificação",
-        "border": "green"
+        "value": "0"
     },
     {
         "name": "Próximos jogos",
-        "border": "green"
+        "value": "1"
     },
     {
         "name": "Últimos jogos",
-        "border": "green"
+        "value": "2"
     },
     {
         "name": "Estatísticas",
-        "border": "green"
+        "value": "3"
     },
     {
         "name": "Notícias",
-        "border": "green"
+        "value": "4"
     }
 ]
