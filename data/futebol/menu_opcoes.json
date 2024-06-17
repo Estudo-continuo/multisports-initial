@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Classificação",
+        "value": "0"
+    },
+    {
+        "name": "Próximos jogos",
+        "value": "1"
+    },
+    {
+        "name": "Últimos jogos",
+        "value": "2"
+    },
+    {
+        "name": "Estatísticas",
+        "value": "3"
+    },
+    {
+        "name": "Notícias",
+        "value": "4"
+    }
+]
