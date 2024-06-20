@@ -1,0 +1,20 @@
+[
+    {
+        "soccer": "green",
+        "sport" : "futebol",
+        "photo": "https://gsnsports.com.br/wp-content/uploads/2022/11/brochure-cover-1024x1024.png",
+        "route": "/views/futebol/index.html"
+    },
+    {
+        "basketball": "orange",
+        "sport": "basquete",
+        "photo": "https://i.pinimg.com/originals/d3/a8/77/d3a8779cd22dfad18ec843f6a3e235f0.png",
+        "route": "/views/basquete/index.html"
+    },
+    {
+        "tennis": "yellow",
+        "sport": "tennis",
+        "photo": "ola",
+        "route": "/views/tennis/index.html"
+    }
+]
