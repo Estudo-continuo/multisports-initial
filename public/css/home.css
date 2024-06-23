@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    transition: 1s;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.green {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(186,236,194,1) 100%);
+}
+
+.orange {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #F8C68C 100%);
+}
+
+.yellow {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #FDFFAD 100%);
+}
+
+.organize-content {
+    display: flex;
+}
+
+.organize-text-img {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 6fr 6fr;
+}
+
+.title {
+    color: #181E4B;
+    font-size: 84px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.descrition {
+    width: 500px;
+    text-align: justify;
+    color: #5E6282;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.position-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.position-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-img {
+    width: 70%;
+}
+
+.see-more {
+    border-radius: 10px;
+    padding: 20px 200px;
+    background-color: rgba(186,236,194,1);
+    font-size: "Volkhov", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+.button-back-next {
+    align-items: center;
+    padding: 15px;
+    writing-mode: vertical-rl;
+    height: 100%;
+    background-color: white;
+    opacity: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-back-next:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
