@@ -111,8 +111,6 @@ async function loadMenuOptions() {
 
 let btnMenu = document.getElementsByClassName("menu-opcoes-button")
 
-console.log(btnMenu)
-
 function mudarClass(value) {
     for (x = 0; x < btnMenu.length; x++) {
         btnMenu[x].classList.remove("menu-opcoes-button-green")
