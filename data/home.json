@@ -1,20 +1,20 @@
 [
     {
-        "soccer": "green",
+        "color": "green",
         "sport" : "futebol",
         "photo": "https://gsnsports.com.br/wp-content/uploads/2022/11/brochure-cover-1024x1024.png",
         "route": "/views/futebol/index.html"
     },
     {
-        "basketball": "orange",
+        "color": "orange",
         "sport": "basquete",
         "photo": "https://i.pinimg.com/originals/d3/a8/77/d3a8779cd22dfad18ec843f6a3e235f0.png",
         "route": "/views/basquete/index.html"
     },
     {
-        "tennis": "yellow",
+        "color": "yellow",
         "sport": "tennis",
-        "photo": "ola",
+        "photo": "https://sportrenders.com/wp-content/uploads/2023/07/Novak-Djokovic-Imagen-PNG-Render-Wimbledon-Sport-Render-PNG-1229x1536.png",
         "route": "/views/tennis/index.html"
     }
 ]
